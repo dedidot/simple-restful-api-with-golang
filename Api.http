@@ -1,0 +1,32 @@
+POST http://localhost:2020/api/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Motor"
+}
+
+### UPDATE CATEGORY
+PUT http://localhost:2020/api/category/2
+Content-Type: application/json
+Accept: application/json
+
+{
+"name": "Book"
+}
+
+### GET ALL CATEGORY
+GET http://localhost:2020/api/categories
+Accept: application/json
+Content-Type: application/json
+
+### GET DETAIL CATEGORY
+GET http://localhost:2020/api/category/2
+Accept: application/json
+Content-Type: application/json
+###
+
+### GET ALL CATEGORY
+DELETE http://localhost:2020/api/category/1
+Accept: application/json
+Content-Type: application/json
